@@ -53,12 +53,14 @@
 
             <ul class="sub-menu">
                 <li><a href="#" class="link-name">Colores</a></li>
-                <li><button id="btn-black">Negro</button></li>
-                <li><button id="btn-blue">Azul</button></li>
-                <li><button id="btn-red">Rojo</button></li>
-                <li><button id="btn-purple">Morado</button></li>
-                <li><button id="btn-green">Verde</button></li>
-                <li><button id="btn-yellow">Amarillo</button></li>
+
+                <li><button id="btn-black" class="fa fa-circle color-button"></button></li>
+                <li><button id="btn-blue" class="fa fa-circle color-button"></button></li>
+                <li><button id="btn-red" class="fa fa-circle color-button"></button></li>
+                <li><button id="btn-purple" class="fa fa-circle color-button"></button></li>
+                <li><button id="btn-green" class="fa fa-circle color-button"></button></li>
+                <li><button id="btn-yellow" class="fa fa-circle color-button"></button></li>
+
             </ul>
         </li>
 
