@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 //Guardar el elemento y el contexto
     const mainCanvas = document.getElementById("main-canvas");
     const context = mainCanvas.getContext("2d");
-    context.strokeStyle = "#d909cf";
+    context.strokeStyle = "#000000";
     let initialX;
     let initialY;
     let correccionX = 0;
