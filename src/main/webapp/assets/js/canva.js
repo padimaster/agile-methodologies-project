@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 //Guardar el elemento y el contexto
     const mainCanvas = document.getElementById("main-canvas");
     const context = mainCanvas.getContext("2d");
-    context.strokeStyle = "#d909cf";
+    context.strokeStyle = "#000000";
     let initialX;
     let initialY;
     let correccionX = 0;
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const dibujar = (cursorX, cursorY) => {
         context.beginPath();
         context.moveTo(initialX, initialY);
-        context.lineWidth = 25;
+        context.lineWidth = 10;
         context.lineCap = "round";
         context.lineJoin = "round";
         context.lineTo(cursorX, cursorY);
