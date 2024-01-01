@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const dibujar = (cursorX, cursorY) => {
         context.beginPath();
         context.moveTo(initialX, initialY);
-        context.lineWidth = 25;
+        context.lineWidth = 100;
         context.lineCap = "round";
         context.lineJoin = "round";
         context.lineTo(cursorX, cursorY);

@@ -53,7 +53,6 @@
 
             <ul class="sub-menu">
                 <li><a href="#" class="link-name">Colores</a></li>
-                <!-- TODO  Asignar un id a los botones y agregar la funcion en assets/js/trazo.js-->
                 <li><button id="btn-black">Negro</button></li>
                 <li><button id="btn-blue">Azul</button></li>
                 <li><button id="btn-red">Rojo</button></li>
