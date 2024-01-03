@@ -74,10 +74,10 @@
             </div>
 
             <ul class="sub-menu">
-                <li><a href="#" class="link-name">Trazo</a></li>
-                <li><button>Pequeño</button></li>
-                <li><button>Mediano</button></li>
-                <li><button>Grande</button></li>
+                <li><a href="#" class="link-name">Tamaño de trazo</a></li>
+                <li><button id="btn-small">10</button></li>
+                <li><button id="btn-medium">15</button></li>
+                <li><button id="btn-big">25</button></li>
             </ul>
         </li>
 
