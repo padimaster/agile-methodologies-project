@@ -37,7 +37,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const setMedium = () =>{
         context.lineWidth = 15;
-        context.strokeStyle = "#ffdd00"
     };
 
     const setBig = () =>{

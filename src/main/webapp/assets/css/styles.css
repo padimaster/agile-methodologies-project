@@ -476,30 +476,62 @@ font-size: 32px;
 /***************************** COLORES************************************/
 
 #btn-black {
+  margin: 5px;
   background-color: black;
   text-decoration: none;
-  color: black;
   width: 25px;
   height: 25px;
+  color: black;
+  border-radius: 50%;
 
 }
 
 #btn-blue {
+  margin: 5px;
   background-color: blue;
+  text-decoration: none;
+  width: 25px;
+  height: 25px;
+  color: blue;
+  border-radius: 50%;
 }
 
 #btn-red {
+  margin: 5px;
   background-color: red;
+  text-decoration: none;
+  width: 25px;
+  height: 25px;
+  color: red;
+  border-radius: 50%;
 }
 
 #btn-purple {
+  margin: 5px;
   background-color: purple;
+  text-decoration: none;
+  width: 25px;
+  height: 25px;
+  color: purple;
+  border-radius: 50%;
 }
 
 #btn-green {
+  margin: 5px;
   background-color: green;
+  text-decoration: none;
+  width: 25px;
+  height: 25px;
+  color: green;
+  border-radius: 50%;
 }
 
 #btn-yellow {
+  margin: 5px;
   background-color: yellow;
+  text-decoration: none;
+  width: 25px;
+  height: 25px;
+  color: yellow;
+  border-radius: 50%;
 }
