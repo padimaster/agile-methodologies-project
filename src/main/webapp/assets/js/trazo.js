@@ -31,6 +31,19 @@ document.addEventListener("DOMContentLoaded", function () {
         context.strokeStyle = "#ffdd00";
     };
 
+    const setSmall = () =>{
+        context.lineWidth = 10;
+    };
+
+    const setMedium = () =>{
+        context.lineWidth = 15;
+        context.strokeStyle = "#ffdd00"
+    };
+
+    const setBig = () =>{
+        context.lineWidth = 25;
+    };
+
 // Evento de escucha para el clic en el boton
     const btnBlack = document.getElementById("btn-black"); //aquí va el id
     btnBlack.addEventListener("click", setBlack);//aqui la función que cambia el color
@@ -49,6 +62,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const btnYellow = document.getElementById("btn-yellow");
     btnYellow.addEventListener("click", setYellow);
+
+    const btnSmall = document.getElementById("btn-small");
+    btnSmall.addEventListener("click", setSmall);
+
+    const btnMedium = document.getElementById("btn-medium");
+    btnMedium.addEventListener("click", setMedium);
+
+    const btnBig = document.getElementById("btn-big");
+    btnBig.addEventListener("click", setBig);
+
 
 
 

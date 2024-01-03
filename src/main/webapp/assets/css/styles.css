@@ -477,6 +477,11 @@ font-size: 32px;
 
 #btn-black {
   background-color: black;
+  text-decoration: none;
+  color: black;
+  width: 25px;
+  height: 25px;
+
 }
 
 #btn-blue {
